@@ -137,7 +137,7 @@ export const currentSponsors = [
 
 export const storeUrl = 'https://shop.smalltownadvertising.com/collections/lady-reds-softball'
 
-export const sponsorNote = 'Sponsorships help cover tournament entry fees, equipment, uniforms, and field rentals — keeping costs low for our families. All sponsors receive a receipt for tax purposes. In-kind donations (water, snacks, printing services) are welcome too!'
+export const sponsorNote = 'Sponsorships help cover tournament entry fees, equipment, and uniforms — keeping costs low for our families. All sponsors receive a receipt for tax purposes.'
 
 export type Tournament = {
   name: string
