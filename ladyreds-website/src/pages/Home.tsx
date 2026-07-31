@@ -7,8 +7,7 @@ import {
 import { team, roster, coaches, coachNotes, tournaments, sponsorTiers, sponsorNote, currentSponsors, storeUrl } from '../config'
 import logo from '../assets/lady-reds-logo.jpg'
 import rosterReveal from '../assets/roster-reveal.jpg'
-import brawlPoster from '../assets/brawl-4-it-all.jpg'
-
+import brawlPoster from '../assets/brawl-4-it-all.jpg'import trudanLogo from '../assets/trudan-designs.png'
 /* ── small building blocks ─────────────────────────────────────────── */
 
 function SectionHeading({ kicker, title, dark = false }: { kicker: string; title: string; dark?: boolean }) {
@@ -404,8 +403,12 @@ export default function Home() {
             </div>
           </div>
           <p className="text-xs text-neutral-600">© 2026 {team.name} 10U Travel Softball · {team.city}</p>
-        </div>
-      </footer>
+        </div>        <div className="max-w-6xl mx-auto px-4 mt-8 pt-6 border-t border-neutral-800 flex items-center justify-center gap-3">
+          <span className="text-xs text-neutral-500 uppercase tracking-widest">Designed by</span>
+          <span className="bg-white rounded-lg px-3 py-1.5 inline-flex items-center">
+            <img src={trudanLogo} alt="TruDan Designs" className="h-8 w-auto" />
+          </span>
+        </div>      </footer>
     </div>
   )
 }
