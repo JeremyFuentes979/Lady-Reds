@@ -149,7 +149,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-3 gap-6">
           {[
             { icon: Users, title: 'Who We Are', text: `A competitive 10U travel fastpitch team based in ${team.city}, building skills, confidence, and lifelong friendships.` },
-            { icon: MapPin, title: 'Where We Play', text: `Home field: ${team.homeField}. We travel to tournaments across the region all spring and summer.` },
+            { icon: MapPin, title: 'Where We Play', text: `Home field: ${team.homeField}. We travel to tournaments across the region during Fall and Spring.` },
             { icon: Trophy, title: 'How We Compete', text: 'Focused on fundamentals, hustle, and sportsmanship — developing athletes for the next level while loving the game.' },
           ].map(({ icon: Icon, title, text }) => (
             <div key={title} className="bg-neutral-900 rounded-2xl p-8 shadow-md border border-neutral-800 text-center">
