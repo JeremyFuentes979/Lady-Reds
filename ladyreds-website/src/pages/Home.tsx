@@ -7,7 +7,9 @@ import {
 import { team, roster, coaches, coachNotes, tournaments, sponsorTiers, sponsorNote, currentSponsors, storeUrl } from '../config'
 import logo from '../assets/lady-reds-logo.jpg'
 import rosterReveal from '../assets/roster-reveal.jpg'
-import brawlPoster from '../assets/brawl-4-it-all.jpg'import trudanLogo from '../assets/trudan-designs.png'
+import brawlPoster from '../assets/brawl-4-it-all.jpg'
+import trudanLogo from '../assets/trudan-designs.png'
+
 /* ── small building blocks ─────────────────────────────────────────── */
 
 function SectionHeading({ kicker, title, dark = false }: { kicker: string; title: string; dark?: boolean }) {
@@ -121,7 +123,6 @@ export default function Home() {
       {/* ── Hero ── */}
       <section id="top" className="relative pt-16 overflow-hidden bg-gradient-to-br from-black via-neutral-950 to-red-950 text-white">
         <svg className="absolute inset-0 w-full h-full opacity-[0.08]" preserveAspectRatio="none" viewBox="0 0 100 100">
-          {/* stylized field */}
           <path d="M50 95 L20 60 A45 45 0 0 1 80 60 Z" fill="none" stroke="white" strokeWidth="0.8" />
           <path d="M50 95 L35 72 L50 60 L65 72 Z" fill="none" stroke="white" strokeWidth="0.8" />
           <circle cx="50" cy="78" r="1.2" fill="white" />
@@ -403,12 +404,14 @@ export default function Home() {
             </div>
           </div>
           <p className="text-xs text-neutral-600">© 2026 {team.name} 10U Travel Softball · {team.city}</p>
-        </div>        <div className="max-w-6xl mx-auto px-4 mt-8 pt-6 border-t border-neutral-800 flex items-center justify-center gap-3">
+        </div>
+        <div className="max-w-6xl mx-auto px-4 mt-8 pt-6 border-t border-neutral-800 flex items-center justify-center gap-3">
           <span className="text-xs text-neutral-500 uppercase tracking-widest">Designed by</span>
           <span className="bg-white rounded-lg px-3 py-1.5 inline-flex items-center">
             <img src={trudanLogo} alt="TruDan Designs" className="h-8 w-auto" />
           </span>
-        </div>      </footer>
+        </div>
+      </footer>
     </div>
   )
 }
