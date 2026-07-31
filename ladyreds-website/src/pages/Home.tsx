@@ -303,7 +303,7 @@ export default function Home() {
           </div>
           <p className="text-center text-neutral-400 text-sm mt-10 flex items-center justify-center gap-2">
             <Handshake className="w-4 h-4 text-red-500" />
-            Interested in sponsoring? Click a "Sponsor Us" button above or email <a className="text-red-500 font-semibold hover:underline" href={`mailto:${team.email}`}>{team.email}</a> — we'll reply with our CashApp link and next steps.
+            Interested in sponsoring? Click a "Sponsor Us" button above or email <a className="text-red-500 font-semibold hover:underline" href={`mailto:${team.email}`}>{team.email}</a>
           </p>
         </div>
       </section>
