@@ -32,19 +32,19 @@ export const coaches = [
   {
     name: 'JJ Reggins',
     role: 'Head Coach',
-    bio: 'Bio:", 
+    bio: '',
     photo: '',
   },
   {
     name: 'Darius Stevens',
-    role: 'Assistant Coach', 
-    bio: 'Bio:" 
+    role: 'Assistant Coach',
+    bio: '',
     photo: '',
   },
   {
     name: 'Chris Dorsey',
     role: 'Assistant Coach',
-    bio: 'Bio:" 
+    bio: '',
     photo: '',
   },
 ]
