@@ -4,7 +4,7 @@ export const team = {
   name: 'Lady Reds',
   tagline: '10U Travel Fastpitch Softball',
   motto: 'One Team. One Goal. One Red Family.',
-  email: 'ladyredssoftball26@gmail.com',
+  email: 'ladyredsoftball26@gmail.com',
   facebook: 'https://www.facebook.com/share/1BiPuHfMoB/',
   homeField: 'Columbus, TX — Local Ballpark',
   city: 'Columbus, TX',
@@ -30,19 +30,19 @@ export const roster = [
 
 export const coaches = [
   {
-    name: 'Head Coach Name',
+    name: 'JJ Reggins',
     role: 'Head Coach',
     bio: 'Bio goes here — coaching background, philosophy, and what you love about this group of athletes.',
     photo: '',
   },
   {
-    name: 'Assistant Coach Name',
+    name: 'Darius Stevens',
     role: 'Assistant Coach — Pitching',
     bio: 'Bio goes here — specialties, certifications, and experience.',
     photo: '',
   },
   {
-    name: 'Assistant Coach Name',
+    name: 'Chris Dorsey',
     role: 'Assistant Coach — Hitting & Fielding',
     bio: 'Bio goes here — specialties, certifications, and experience.',
     photo: '',
