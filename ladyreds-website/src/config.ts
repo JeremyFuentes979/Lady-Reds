@@ -32,19 +32,19 @@ export const coaches = [
   {
     name: 'JJ Reggins',
     role: 'Head Coach',
-    bio: 'Bio goes here — coaching background, philosophy, and what you love about this group of athletes.',
+    bio: 'Bio:", 
     photo: '',
   },
   {
     name: 'Darius Stevens',
-    role: 'Assistant Coach — Pitching',
-    bio: 'Bio goes here — specialties, certifications, and experience.',
+    role: 'Assistant Coach', 
+    bio: 'Bio:" 
     photo: '',
   },
   {
     name: 'Chris Dorsey',
-    role: 'Assistant Coach — Hitting & Fielding',
-    bio: 'Bio goes here — specialties, certifications, and experience.',
+    role: 'Assistant Coach',
+    bio: 'Bio:" 
     photo: '',
   },
 ]
