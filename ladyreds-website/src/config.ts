@@ -3,7 +3,7 @@
 export const team = {
   name: 'Lady Reds',
   tagline: '10U Travel Fastpitch Softball',
-  motto: 'One Team. One Goal. One Red Family.',
+  motto: 'Hard work beats talent when talent doesn’t work hard!',
   email: 'ladyredsoftball26@gmail.com',
   facebook: 'https://www.facebook.com/share/1BiPuHfMoB/',
   homeField: 'Columbus, TX — Local Ballpark',
