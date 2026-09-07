@@ -6,7 +6,7 @@ import {
 } from 'lucide-react'
 import { team, roster, coaches, coachNotes, tournaments, sponsorTiers, sponsorNote, currentSponsors, storeUrl } from '../config'
 import logo from '../assets/lady-reds-logo.jpg'
-import rosterReveal from '../assets/roster-reveal.jpg'
+import teamPhoto from '../assets/team-photo.jpg'
 import brawlPoster from '../assets/brawl-4-it-all.jpg'
 import shinerFlyer from '../assets/shiner-starplex-flyer.jpg'
 import trudanLogo from '../assets/trudan-designs.png'
@@ -168,9 +168,12 @@ export default function Home() {
           <SectionHeading kicker="2026 Fall Ball" title="Team Roster" dark />
           <div className="mb-12 flex justify-center">
             <img
-              src={rosterReveal}
-              alt="Lady Reds 2026 Fall Ball roster reveal poster"
-              className="rounded-2xl border border-red-900 shadow-[0_10px_50px_rgba(220,38,38,0.25)] w-full max-w-md"
+              src={teamPhoto}
+              alt="Lady Reds softball players and coaches posing together at the ballpark"
+              width={2048}
+              height={1365}
+              loading="lazy"
+              className="rounded-2xl border border-red-900 shadow-[0_10px_50px_rgba(220,38,38,0.25)] w-full max-w-4xl h-auto"
             />
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
