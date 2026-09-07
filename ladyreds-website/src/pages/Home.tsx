@@ -8,6 +8,7 @@ import { team, roster, coaches, coachNotes, tournaments, sponsorTiers, sponsorNo
 import logo from '../assets/lady-reds-logo.jpg'
 import rosterReveal from '../assets/roster-reveal.jpg'
 import brawlPoster from '../assets/brawl-4-it-all.jpg'
+import shinerFlyer from '../assets/shiner-starplex-flyer.jpg'
 import trudanLogo from '../assets/trudan-designs.png'
 
 /* ── small building blocks ─────────────────────────────────────────── */
@@ -235,6 +236,30 @@ export default function Home() {
                 <p className="flex items-center justify-center md:justify-start gap-2"><MapPin className="w-4 h-4 text-red-500" /> Victoria Youth Softball Complex, Victoria, TX</p>
                 <p className="flex items-center justify-center md:justify-start gap-2"><Trophy className="w-4 h-4 text-red-500" /> 4-game guarantee · 8 teams per division · 1st–3rd place awards</p>
               </div>
+            </div>
+          </div>
+          {/* Shiner Starplex League feature */}
+          <div className="mb-10 bg-white/5 border border-red-900 rounded-3xl p-6 md:p-8 flex flex-col md:flex-row items-center gap-8">
+            <img
+              src={shinerFlyer}
+              alt="Shiner Starplex Girls Softball League flyer"
+              width={640}
+              height={960}
+              loading="lazy"
+              className="w-full md:w-64 h-auto rounded-2xl shadow-[0_10px_40px_rgba(220,38,38,0.25)] shrink-0"
+            />
+            <div className="text-center md:text-left">
+              <p className="text-red-500 font-bold uppercase tracking-[0.3em] text-xs mb-2">Fall League Play</p>
+              <h3 className="text-2xl md:text-3xl font-extrabold">Shiner Starplex Girls Softball League</h3>
+              <p className="text-red-300 font-semibold mt-1">10U Division — Lady Reds Registered</p>
+              <div className="mt-4 space-y-1.5 text-neutral-300 text-sm">
+                <p className="flex items-center justify-center md:justify-start gap-2"><CalendarDays className="w-4 h-4 text-red-500 shrink-0" /> Saturdays Starting September 19, 2026</p>
+                <p className="flex items-center justify-center md:justify-start gap-2"><MapPin className="w-4 h-4 text-red-500 shrink-0" /> Shiner Starplex, Shiner, TX</p>
+                <p className="flex items-center justify-center md:justify-start gap-2"><Trophy className="w-4 h-4 text-red-500 shrink-0" /> 2 games every other Saturday · Season-end tournament · Free registration</p>
+              </div>
+              <a href="https://shinerstarplex.com" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 mt-4 text-red-400 font-semibold hover:text-red-300 transition-colors text-sm">
+                More Info: shinerstarplex.com <ChevronRight className="w-4 h-4" />
+              </a>
             </div>
           </div>
           <div className="space-y-4">
