@@ -75,6 +75,7 @@ export default function Home() {
 
   const links = [
     { href: '#roster', label: 'Roster' },
+    { href: '#consent', label: 'Photo Consent' },
     { href: '#coaches', label: "Coaches' Corner" },
     { href: '#tournaments', label: 'Tournaments' },
     { href: '#store', label: 'Fan Store' },
@@ -180,8 +181,28 @@ export default function Home() {
             {roster.map(p => <JerseyCard key={p.number} {...p} />)}
           </div>
           <p className="text-center text-neutral-500 mt-8 text-sm">
-            Player photos will be added with parent permission — team families can send photos to the team email.
+            Player photos will be added with parent permission — <a href="#consent" className="text-red-500 font-semibold hover:underline">sign the photo consent form</a> below.
           </p>
+        </div>
+      </section>
+
+      {/* ── Photo & Media Consent ── */}
+      <section id="consent" className="py-20 scroll-mt-16 bg-gradient-to-b from-neutral-950 to-black">
+        <div className="max-w-3xl mx-auto px-4">
+          <SectionHeading kicker="Required for All Families" title="Photo & Media Consent" dark />
+          <p className="text-center text-neutral-400 -mt-6 mb-10">
+            We love sharing team photos and highlights on this site and our social media. Please sign below so we
+            have your permission on file before we post any photos of your player.
+          </p>
+          <div className="rounded-2xl overflow-hidden border border-red-900 shadow-[0_10px_50px_rgba(220,38,38,0.25)]">
+            <iframe
+              src="https://waivergenius.vercel.app/sign/lady-reds-10u-travel-softball"
+              title="Lady Reds photo & media consent form"
+              width="100%"
+              height="720"
+              style={{ border: 0, display: 'block' }}
+            />
+          </div>
         </div>
       </section>
 
